@@ -58,6 +58,9 @@ class BotCore:
         self.class1_detected_flag = False
         self.class1_flag_lock = threading.Lock()
         
+        self.last_random_key_time = 0
+        self.random_key_interval = 0.3
+        
         self.initialize_systems()
         
     def initialize_systems(self):
@@ -641,6 +644,13 @@ class BotCore:
                     if not self.is_in_no_teleport_zone():
                         if random.random() < 0.5 and self.key_controller.is_shift_ready():
                             self.key_controller.press_key('shift', 0.05)
+                
+                current_time = time.time()
+                if not self.hunting_system.is_hunting and not self.is_paused and current_time - self.last_random_key_time >= self.random_key_interval:
+                    if random.random() < 0.5:
+                        random_key = 'alt' if random.random() < 0.5 else 'z'
+                        self.key_controller.press_key(random_key, 0.05)
+                        self.last_random_key_time = current_time
                 
                 yellow_pos = self.yellow_dot_tracker.get_yellow_dot_position()
                 if yellow_pos:
