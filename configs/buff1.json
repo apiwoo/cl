@@ -1,0 +1,18 @@
+{
+  "buffs": [
+    {
+      "name": "home",
+      "key": "home",
+      "interval_minutes": 9.5,
+      "enabled": true,
+      "after_delay": 0.1
+    },
+    {
+      "name": "버프_pagedown",
+      "key": "pagedown",
+      "interval_minutes": 20.0,
+      "enabled": true
+    }
+  ],
+  "created_at": "2025-06-10 19:24:28"
+}

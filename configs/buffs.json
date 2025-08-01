@@ -1,0 +1,14 @@
+{
+  "buffs": [
+    {
+      "id": "buff1",
+      "display_name": "이속물약만",
+      "config_path": "configs/buff1.json"
+    },
+    {
+      "id": "buff2",
+      "display_name": "펫먹이만",
+      "config_path": "configs/buff2.json"
+    }
+  ]
+}

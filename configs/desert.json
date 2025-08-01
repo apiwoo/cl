@@ -1,0 +1,136 @@
+{
+  "id": "desert",
+  "display_name": "사막",
+  "monstermodelname": "desert",
+  "minimap": {
+    "file_path": "desertmm.png",
+    "left": 19,
+    "top": 168,
+    "width": 302,
+    "height": 99,
+    "scale_to_640": 2.112211221122112
+  },
+  "scroll_enabled": false,
+  "scroll_tracking_file": "",
+  "forced_movement_config": {
+    "enabled": false,
+    "trigger_zones": [],
+    "target_zone": 1,
+    "repeat_actions": [],
+    "repeat_interval": 1000
+  },
+  "zones": [
+    {
+      "id": 1,
+      "name": "Zone 1",
+      "bbox_640": [
+        18,
+        97,
+        71,
+        139
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Zone 2",
+      "bbox_640": [
+        592,
+        91,
+        635,
+        141
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Zone 3",
+      "bbox_640": [
+        577,
+        93,
+        589,
+        141
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Zone 4",
+      "bbox_640": [
+        78,
+        99,
+        93,
+        138
+      ]
+    }
+  ],
+  "zone_actions": {
+    "1": [
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "down"
+      }
+    ],
+    "4": [
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "down"
+      },
+      {
+        "key": "SHIFT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "3": [
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "LEFT",
+        "action": "down"
+      },
+      {
+        "key": "SHIFT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "2": [
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "LEFT",
+        "action": "down"
+      }
+    ]
+  },
+  "zone_cooldowns": {},
+  "no_hunt_boxes": [],
+  "no_teleport_boxes": [
+    [
+      13,
+      87,
+      130,
+      154
+    ],
+    [
+      510,
+      81,
+      636,
+      149
+    ]
+  ],
+  "resolution": {
+    "width": 1920,
+    "height": 1080
+  }
+}

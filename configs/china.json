@@ -1,0 +1,496 @@
+{
+  "id": "china",
+  "display_name": "중국",
+  "monstermodelname": "china",
+  "minimap": {
+    "file_path": "chinamm.png",
+    "left": 18,
+    "top": 169,
+    "width": 312,
+    "height": 188,
+    "scale_to_640": 2.051282051282051
+  },
+  "scroll_enabled": false,
+  "scroll_tracking_file": "",
+  "forced_movement_config": {
+    "enabled": false,
+    "trigger_zones": [],
+    "target_zone": 1,
+    "repeat_actions": [],
+    "repeat_interval": 1000
+  },
+  "zones": [
+    {
+      "id": 1,
+      "name": "Zone 1",
+      "bbox_640": [
+        576,
+        280,
+        650,
+        328
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Zone 2",
+      "bbox_640": [
+        487,
+        288,
+        502,
+        327
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Zone 3",
+      "bbox_640": [
+        406,
+        295,
+        421,
+        330
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Zone 4",
+      "bbox_640": [
+        5,
+        254,
+        69,
+        298
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Zone 5",
+      "bbox_640": [
+        96,
+        262,
+        107,
+        301
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Zone 6",
+      "bbox_640": [
+        70,
+        265,
+        80,
+        301
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Zone 7",
+      "bbox_640": [
+        79,
+        226,
+        109,
+        249
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Zone 8",
+      "bbox_640": [
+        103,
+        191,
+        115,
+        228
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Zone 10",
+      "bbox_640": [
+        55,
+        165,
+        93,
+        187
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Zone 11",
+      "bbox_640": [
+        47,
+        125,
+        63,
+        163
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Zone 12",
+      "bbox_640": [
+        71,
+        127,
+        105,
+        164
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Zone 13",
+      "bbox_640": [
+        238,
+        119,
+        250,
+        164
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Zone 14",
+      "bbox_640": [
+        305,
+        137,
+        321,
+        183
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Zone 15",
+      "bbox_640": [
+        334,
+        161,
+        359,
+        196
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Zone 16",
+      "bbox_640": [
+        505,
+        156,
+        537,
+        198
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Zone 17",
+      "bbox_640": [
+        550,
+        284,
+        571,
+        328
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Zone 18",
+      "bbox_640": [
+        240,
+        262,
+        250,
+        301
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Zone 19",
+      "bbox_640": [
+        550,
+        280,
+        570,
+        328
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Zone 20",
+      "bbox_640": [
+        64,
+        196,
+        77,
+        234
+      ]
+    }
+  ],
+  "zone_actions": {
+    "1": [
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "LEFT",
+        "action": "down"
+      }
+    ],
+    "2": [
+      {
+        "key": "ALT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "3": [
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "LEFT",
+        "action": "down"
+      }
+    ],
+    "5": [
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "LEFT",
+        "action": "down"
+      },
+      {
+        "key": "UP",
+        "action": "down"
+      },
+      {
+        "key": "SLEEP",
+        "action": "sleep",
+        "delay": 50
+      },
+      {
+        "key": "ALT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "6": [
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "down"
+      },
+      {
+        "key": "UP",
+        "action": "down"
+      },
+      {
+        "key": "SLEEP",
+        "action": "sleep",
+        "delay": 50
+      },
+      {
+        "key": "ALT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "4": [
+      {
+        "key": "UP",
+        "action": "up"
+      },
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "down"
+      }
+    ],
+    "7": [
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "LEFT",
+        "action": "down"
+      }
+    ],
+    "8": [
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "LEFT",
+        "action": "down"
+      }
+    ],
+    "10": [
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "down"
+      }
+    ],
+    "11": [
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "down"
+      },
+      {
+        "key": "ALT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "12": [
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "down"
+      }
+    ],
+    "13": [
+      {
+        "key": "UP",
+        "action": "up"
+      },
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "down"
+      },
+      {
+        "key": "ALT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "14": [
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "down"
+      },
+      {
+        "key": "ALT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "15": [
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "down"
+      },
+      {
+        "key": "ALT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "16": [
+      {
+        "key": "DOWN",
+        "action": "down"
+      },
+      {
+        "key": "ALT",
+        "action": "tap",
+        "delay": 50
+      },
+      {
+        "key": "DOWN",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "LEFT",
+        "action": "down"
+      }
+    ],
+    "17": [
+      {
+        "key": "UP",
+        "action": "up"
+      },
+      {
+        "key": "DOWN",
+        "action": "up"
+      }
+    ],
+    "18": [
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "LEFT",
+        "action": "down"
+      }
+    ],
+    "19": [
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "LEFT",
+        "action": "down"
+      }
+    ],
+    "20": [
+      {
+        "key": "UP",
+        "action": "down"
+      }
+    ]
+  },
+  "zone_cooldowns": {
+    "5": 3.0,
+    "6": 3.0
+  },
+  "no_hunt_boxes": [
+    [
+      230,
+      107,
+      363,
+      212
+    ],
+    [
+      43,
+      119,
+      86,
+      229
+    ],
+    [
+      67,
+      188,
+      111,
+      304
+    ]
+  ],
+  "resolution": {
+    "width": 1920,
+    "height": 1080
+  }
+}

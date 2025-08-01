@@ -1,0 +1,983 @@
+{
+  "id": "gy",
+  "display_name": "군영",
+  "monstermodelname": "gy",
+  "minimap": {
+    "file_path": "gymm.png",
+    "left": 69,
+    "top": 171,
+    "width": 118,
+    "height": 229,
+    "scale_to_640": 5.423728813559322
+  },
+  "scroll_enabled": true,
+  "scroll_tracking_file": "gy.png",
+  "forced_movement_config": {
+    "enabled": true,
+    "trigger_zones": [
+      39
+    ],
+    "target_zone": 1,
+    "repeat_actions": [
+      {
+        "key": "UP",
+        "action": "up"
+      },
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "down"
+      },
+      {
+        "key": "DOWN",
+        "action": "down"
+      },
+      {
+        "key": "SLEEP",
+        "action": "sleep",
+        "delay": 50
+      },
+      {
+        "key": "ALT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "repeat_interval": 500
+  },
+  "zones": [
+    {
+      "id": 1,
+      "name": "Zone 1",
+      "bbox_640": [
+        292,
+        874,
+        597,
+        1078
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Zone 2",
+      "bbox_640": [
+        255,
+        981,
+        288,
+        1081
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Zone 3",
+      "bbox_640": [
+        194,
+        926,
+        223,
+        1040
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Zone 4",
+      "bbox_640": [
+        164,
+        791,
+        192,
+        967
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Zone 5",
+      "bbox_640": [
+        126,
+        914,
+        163,
+        1025
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Zone 6",
+      "bbox_640": [
+        79,
+        912,
+        111,
+        1024
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Zone 7",
+      "bbox_640": [
+        76,
+        1029,
+        125,
+        1076
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Zone 8",
+      "bbox_640": [
+        163,
+        731,
+        215,
+        790
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Zone 9",
+      "bbox_640": [
+        407,
+        721,
+        433,
+        813
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Zone 10",
+      "bbox_640": [
+        450,
+        692,
+        479,
+        774
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Zone 11",
+      "bbox_640": [
+        484,
+        624,
+        516,
+        760
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Zone 12",
+      "bbox_640": [
+        519,
+        678,
+        546,
+        757
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Zone 14",
+      "bbox_640": [
+        479,
+        516,
+        533,
+        617
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Zone 15",
+      "bbox_640": [
+        398,
+        512,
+        431,
+        620
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Zone 16",
+      "bbox_640": [
+        310,
+        503,
+        349,
+        619
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Zone 17",
+      "bbox_640": [
+        277,
+        526,
+        304,
+        615
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Zone 18",
+      "bbox_640": [
+        201,
+        500,
+        236,
+        619
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Zone 19",
+      "bbox_640": [
+        169,
+        472,
+        200,
+        565
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Zone 20",
+      "bbox_640": [
+        138,
+        472,
+        167,
+        565
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Zone 21",
+      "bbox_640": [
+        79,
+        472,
+        137,
+        565
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Zone 22",
+      "bbox_640": [
+        77,
+        572,
+        145,
+        617
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Zone 23",
+      "bbox_640": [
+        170,
+        318,
+        203,
+        385
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Zone 24",
+      "bbox_640": [
+        166,
+        968,
+        193,
+        1044
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Zone 25",
+      "bbox_640": [
+        146,
+        566,
+        200,
+        617
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Zone 33",
+      "bbox_640": [
+        280,
+        732,
+        300,
+        814
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Zone 34",
+      "bbox_640": [
+        329,
+        734,
+        351,
+        816
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Zone 35",
+      "bbox_640": [
+        451,
+        779,
+        479,
+        819
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Zone 37",
+      "bbox_640": [
+        483,
+        766,
+        513,
+        815
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Zone 38",
+      "bbox_640": [
+        519,
+        761,
+        545,
+        820
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Zone 39",
+      "bbox_640": [
+        427,
+        304,
+        507,
+        406
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Zone 40",
+      "bbox_640": [
+        171,
+        383,
+        201,
+        471
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Zone 41",
+      "bbox_640": [
+        561,
+        508,
+        616,
+        618
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Zone 42",
+      "bbox_640": [
+        562,
+        654,
+        617,
+        760
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Zone 43",
+      "bbox_640": [
+        562,
+        769,
+        621,
+        823
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Zone 44",
+      "bbox_640": [
+        287,
+        187,
+        321,
+        380
+      ]
+    }
+  ],
+  "zone_actions": {
+    "1": [
+      {
+        "key": "UP",
+        "action": "up"
+      },
+      {
+        "key": "DOWN",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "LEFT",
+        "action": "down"
+      }
+    ],
+    "2": [
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "LEFT",
+        "action": "down"
+      },
+      {
+        "key": "ALT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "3": [
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "LEFT",
+        "action": "down"
+      },
+      {
+        "key": "UP",
+        "action": "down"
+      },
+      {
+        "key": "ALT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "4": [
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "down"
+      },
+      {
+        "key": "UP",
+        "action": "down"
+      },
+      {
+        "key": "z",
+        "action": "up"
+      }
+    ],
+    "5": [
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "down"
+      },
+      {
+        "key": "ALT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "6": [
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "down"
+      },
+      {
+        "key": "z",
+        "action": "down"
+      }
+    ],
+    "7": [
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "UP",
+        "action": "down"
+      },
+      {
+        "key": "SLEEP",
+        "action": "sleep",
+        "delay": 50
+      },
+      {
+        "key": "SHIFT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "8": [
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "down"
+      },
+      {
+        "key": "SHIFT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "9": [
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "down"
+      },
+      {
+        "key": "ALT",
+        "action": "tap",
+        "delay": 50
+      },
+      {
+        "key": "z",
+        "action": "down"
+      }
+    ],
+    "10": [
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "down"
+      },
+      {
+        "key": "UP",
+        "action": "down"
+      },
+      {
+        "key": "ALT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "11": [
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "UP",
+        "action": "down"
+      },
+      {
+        "key": "z",
+        "action": "up"
+      }
+    ],
+    "12": [
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "LEFT",
+        "action": "down"
+      },
+      {
+        "key": "UP",
+        "action": "down"
+      }
+    ],
+    "14": [
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "LEFT",
+        "action": "down"
+      }
+    ],
+    "15": [
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "LEFT",
+        "action": "down"
+      },
+      {
+        "key": "SHIFT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "24": [
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "UP",
+        "action": "down"
+      },
+      {
+        "key": "ALT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "16": [
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "LEFT",
+        "action": "down"
+      },
+      {
+        "key": "SHIFT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "17": [
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "LEFT",
+        "action": "down"
+      }
+    ],
+    "18": [
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "LEFT",
+        "action": "down"
+      },
+      {
+        "key": "UP",
+        "action": "down"
+      },
+      {
+        "key": "ALT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "19": [
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "UP",
+        "action": "down"
+      },
+      {
+        "key": "ALT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "20": [
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "down"
+      },
+      {
+        "key": "UP",
+        "action": "down"
+      },
+      {
+        "key": "ALT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "21": [
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "down"
+      },
+      {
+        "key": "z",
+        "action": "down"
+      }
+    ],
+    "22": [
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "UP",
+        "action": "down"
+      },
+      {
+        "key": "SLEEP",
+        "action": "sleep",
+        "delay": 50
+      },
+      {
+        "key": "SHIFT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "23": [
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "UP",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "down"
+      },
+      {
+        "key": "SHIFT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "25": [
+      {
+        "key": "ALT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "33": [
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "down"
+      },
+      {
+        "key": "SHIFT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "34": [
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "down"
+      }
+    ],
+    "35": [
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "down"
+      },
+      {
+        "key": "UP",
+        "action": "down"
+      },
+      {
+        "key": "ALT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "37": [
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "UP",
+        "action": "down"
+      },
+      {
+        "key": "ALT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "38": [
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "LEFT",
+        "action": "down"
+      },
+      {
+        "key": "UP",
+        "action": "down"
+      },
+      {
+        "key": "ALT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "40": [
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "down"
+      },
+      {
+        "key": "UP",
+        "action": "down"
+      },
+      {
+        "key": "z",
+        "action": "up"
+      }
+    ],
+    "41": [
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "LEFT",
+        "action": "down"
+      }
+    ],
+    "42": [
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "LEFT",
+        "action": "down"
+      }
+    ],
+    "43": [
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "LEFT",
+        "action": "down"
+      }
+    ],
+    "44": [
+      {
+        "key": "UP",
+        "action": "up"
+      },
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "down"
+      },
+      {
+        "key": "ALT",
+        "action": "tap",
+        "delay": 50
+      }
+    ]
+  },
+  "zone_cooldowns": {},
+  "no_hunt_boxes": [
+    [
+      153,
+      719,
+      216,
+      964
+    ],
+    [
+      482,
+      594,
+      520,
+      762
+    ],
+    [
+      166,
+      305,
+      207,
+      523
+    ],
+    [
+      310,
+      502,
+      435,
+      675
+    ]
+  ],
+  "resolution": {
+    "width": 1920,
+    "height": 1080
+  }
+}

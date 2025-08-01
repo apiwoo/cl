@@ -1,0 +1,34 @@
+{
+  "maps": [
+    {
+      "id": "gy",
+      "name": "군영",
+      "config_file": "gy.json",
+      "monstermodelname": "ngy"
+    },
+    {
+      "id": "china",
+      "name": "중국",
+      "monstermodelname": "china",
+      "config_file": "china.json"
+    },
+    {
+      "id": "desert",
+      "name": "사막",
+      "monstermodelname": "desert",
+      "config_file": "desert.json"
+    },
+    {
+      "id": "desert1",
+      "name": "사막",
+      "monstermodelname": "desert",
+      "config_file": "desert1.json"
+    },
+    {
+      "id": "mrdw",
+      "name": "무릉",
+      "monstermodelname": "mrdw",
+      "config_file": "mrdw.json"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "mrdw",
+  "display_name": "무릉",
+  "monstermodelname": "mrdw",
+  "minimap": {
+    "file_path": "mrmm.png",
+    "left": 20,
+    "top": 170,
+    "width": 265,
+    "height": 104,
+    "scale_to_640": 2.4150943396226414
+  },
+  "scroll_enabled": false,
+  "scroll_tracking_files": [],
+  "forced_movement_config": {
+    "enabled": false,
+    "trigger_zones": [],
+    "target_zone": 1,
+    "repeat_actions": [],
+    "repeat_interval": 1000
+  },
+  "zones": [
+    {
+      "id": 1,
+      "name": "Zone 1",
+      "bbox_640": [
+        3,
+        148,
+        91,
+        215
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Zone 10",
+      "bbox_640": [
+        571,
+        150,
+        627,
+        212
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Zone 11",
+      "bbox_640": [
+        90,
+        149,
+        113,
+        214
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Zone 12",
+      "bbox_640": [
+        556,
+        151,
+        571,
+        218
+      ]
+    }
+  ],
+  "zone_actions": {
+    "1": [
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "down"
+      },
+      {
+        "key": "SHIFT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "10": [
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "LEFT",
+        "action": "down"
+      },
+      {
+        "key": "SHIFT",
+        "action": "tap",
+        "delay": 50
+      }
+    ],
+    "12": [
+      {
+        "key": "RIGHT",
+        "action": "up"
+      },
+      {
+        "key": "LEFT",
+        "action": "down"
+      }
+    ],
+    "11": [
+      {
+        "key": "LEFT",
+        "action": "up"
+      },
+      {
+        "key": "RIGHT",
+        "action": "down"
+      }
+    ]
+  },
+  "zone_cooldowns": {},
+  "no_hunt_boxes": [],
+  "no_teleport_boxes": [
+    [
+      2,
+      140,
+      124,
+      226
+    ],
+    [
+      537,
+      122,
+      632,
+      226
+    ]
+  ],
+  "resolution": {
+    "width": 1920,
+    "height": 1080
+  }
+}
