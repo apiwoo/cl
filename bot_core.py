@@ -642,13 +642,13 @@ class BotCore:
                 
                 if self.use_teleport and not self.hunting_system.is_hunting and not self.zone_action_manager.is_forced_movement_active:
                     if not self.is_in_no_teleport_zone():
-                        if random.random() < 0.6 and self.key_controller.is_shift_ready():
+                        if random.random() < 0.7 and self.key_controller.is_shift_ready():
                             self.key_controller.press_key('shift', 0.05)
                 
                 current_time = time.time()
                 if not self.hunting_system.is_hunting and not self.is_paused and current_time - self.last_random_key_time >= self.random_key_interval:
-                    if random.random() < 0.6:
-                        random_key = 'alt' if random.random() < 0.6 else 'z'
+                    if random.random() < 0.7:
+                        random_key = 'alt' if random.random() < 0.7 else 'z'
                         self.key_controller.press_key(random_key, 0.05)
                         self.last_random_key_time = current_time
                 
